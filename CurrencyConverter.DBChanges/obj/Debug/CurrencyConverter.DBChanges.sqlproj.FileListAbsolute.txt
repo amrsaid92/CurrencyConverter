@@ -1,0 +1,10 @@
+E:\Test Projects\CurrencyConverter\CurrencyConverter.DBChanges\bin\Debug\CurrencyConverter.DBChanges.dacpac
+E:\Test Projects\CurrencyConverter\CurrencyConverter.DBChanges\bin\Debug\CurrencyConverter.DBChanges.dll
+E:\Test Projects\CurrencyConverter\CurrencyConverter.DBChanges\bin\Debug\CurrencyConverter.DBChanges.pdb
+E:\Test Projects\CurrencyConverter\CurrencyConverter.DBChanges\obj\Debug\CurrencyConverter.DBChanges.sqlproj.AssemblyReference.cache
+E:\Test Projects\CurrencyConverter\CurrencyConverter.DBChanges\obj\Debug\CurrencyConverter.DBChanges.dll
+E:\Test Projects\CurrencyConverter\CurrencyConverter.DBChanges\obj\Debug\CurrencyConverter.DBChanges.pdb
+E:\Test Projects\CurrencyConverter\CurrencyConverter.DBChanges\obj\Debug\Model.xml
+E:\Test Projects\CurrencyConverter\CurrencyConverter.DBChanges\obj\Debug\refactor.xml
+E:\Test Projects\CurrencyConverter\CurrencyConverter.DBChanges\obj\Debug\postdeploy.sql
+E:\Test Projects\CurrencyConverter\CurrencyConverter.DBChanges\obj\Debug\predeploy.sql
