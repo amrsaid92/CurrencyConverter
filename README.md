@@ -35,3 +35,45 @@ The Infrastructure Layer provides implementations for data access and dependency
 
 - **CurrencyConverter.Bootstrapper**: Configures and initializes dependency injection for all application layers.
 - **CurrencyConverter.Repositories**: Implements repository interfaces to facilitate communication with an SQL database.
+
+## Design Patterns
+
+This project uses several design patterns to improve structure, flexibility, and maintainability:
+
+- **Repository Pattern**:  
+  Separates data access logic from business logic, making database interactions more manageable.
+
+- **Unit of Work**:  
+  Ensures multiple database operations are executed together, preventing data inconsistencies.
+
+- **Dependency Injection (DI)**:  
+  Makes the code more modular and testable by injecting dependencies instead of hardcoding them.
+
+- **Strategy Pattern**:  
+  Allows switching between different business logic implementations at runtime.
+
+- **Singleton Pattern**:  
+  Ensures a class has only one instance throughout the application, useful for configurations and logging.
+
+## Task Description and Assumptions
+
+### Calling the Frankfurt API
+- Used [Refit](https://github.com/reactiveui/refit), a REST client library for .NET, to simplify API calls by generating strongly typed HTTP clients.
+- To exclude specific currencies, they are listed in the application settings. This approach can be extended to store exclusions in the database for runtime configuration.
+
+### Caching Strategy
+- Implemented **Output Caching** to improve response time.
+- Other caching options such as **In-Memory Cache** and **Distributed Cache** can be used, especially when multiple servers are involved in a load-balanced environment.
+- Starting from **.NET 9**, **Hybrid Cache** is available, allowing automatic switching between in-memory and distributed cache based on availability.
+
+### Resilience (Retry & Circuit Breaker)
+- Used **Microsoft.Extensions.Http.Polly** to handle retry policies and circuit breaker functionality, improving API request stability.
+
+### Logging & Monitoring
+- Implemented logging using **Serilog** with **Seq** for structured logging (assumed to be hosted at `http://localhost:5341`, version `2024.3`).
+- Logged each API request, including user correlation details (IP & Email if the user is authenticated).
+- Below are screenshots showcasing logs in Seq.
+
+### Health Checks & API Monitoring
+- Implemented a **Health Check API** to monitor API availability, integrated with Seq.
+- Added a **dashboard** to visualize API call statistics and availability using collected logs.
