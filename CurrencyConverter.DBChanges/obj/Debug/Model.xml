@@ -12,7 +12,7 @@
 		</CustomData>
 		<CustomData Category="Reference" Type="Assembly">
 			<Metadata Name="LogicalName" Value="CurrencyConverter.DBChanges.dll" />
-			<Metadata Name="FileName" Value="E:\TEST PROJECTS\CURRENCYCONVERTER\CURRENCYCONVERTER.DBCHANGES\OBJ\DEBUG\CURRENCYCONVERTER.DBCHANGES.DLL" />
+			<Metadata Name="FileName" Value="C:\USERS\AMRSA\SOURCE\REPOS\AMRSAID92\CURRENCYCONVERTER\CURRENCYCONVERTER.DBCHANGES\OBJ\DEBUG\CURRENCYCONVERTER.DBCHANGES.DLL" />
 			<Metadata Name="AssemblyName" Value="CurrencyConverter.DBChanges" />
 			<Metadata Name="PermissionSet" Value="SAFE" />
 			<Metadata Name="Owner" Value="" />
@@ -20,7 +20,7 @@
 			<Metadata Name="IsVisible" Value="True" />
 			<Metadata Name="IsModelAware" Value="True" />
 			<Metadata Name="SkipCreationIfEmpty" Value="True" />
-			<Metadata Name="AssemblySymbolsName" Value="E:\Test Projects\CurrencyConverter\CurrencyConverter.DBChanges\obj\Debug\CurrencyConverter.DBChanges.pdb" />
+			<Metadata Name="AssemblySymbolsName" Value="C:\Users\amrsa\source\repos\amrsaid92\CurrencyConverter\CurrencyConverter.DBChanges\obj\Debug\CurrencyConverter.DBChanges.pdb" />
 		</CustomData>
 		<CustomData Category="SqlCmdVariables" Type="SqlCmdVariable" />
 	</Header>

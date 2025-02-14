@@ -482,10 +482,3 @@ $RECYCLE.BIN/
 
 # Vim temporary swap files
 *.swp
-/.vs/CurrencyConverter/CopilotIndices/17.12.38.29086/CodeChunks.db
-/.vs/CurrencyConverter/CopilotIndices/17.12.38.29086/CodeChunks.db-shm
-/.vs/CurrencyConverter/CopilotIndices/17.12.38.29086/CodeChunks.db-wal
-/.vs/CurrencyConverter/CopilotIndices/17.12.38.29086/SemanticSymbols.db
-/.vs/CurrencyConverter/CopilotIndices/17.12.38.29086/SemanticSymbols.db-shm
-/.vs/CurrencyConverter/CopilotIndices/17.12.38.29086/SemanticSymbols.db-wal
-/.vs/CurrencyConverter/v17/DocumentLayout.backup.json
