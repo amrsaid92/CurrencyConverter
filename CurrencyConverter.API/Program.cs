@@ -10,7 +10,7 @@ using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using System.Text;
 
-internal class Program
+public class Program
 {
     private static void Main(string[] args)
     {

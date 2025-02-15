@@ -3,8 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\amrsa\\source\\repos\\amrsaid92\\CurrencyConverter\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\amrsa\\source\\repos\\amrsaid92\\CurrencyConverter\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+      "AbsoluteMoniker": "D:0:0:{F0947000-5DB7-4F59-934B-A8A10E85982F}|CurrencyConverter.UnitTest\\CurrencyConverter.UnitTest.csproj|c:\\users\\amrsa\\source\\repos\\amrsaid92\\currencyconverter\\currencyconverter.unittest\\currencyconvertercontrollerintegrationtest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0947000-5DB7-4F59-934B-A8A10E85982F}|CurrencyConverter.UnitTest\\CurrencyConverter.UnitTest.csproj|solutionrelative:currencyconverter.unittest\\currencyconvertercontrollerintegrationtest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D455048F-4F29-4CED-A664-48FE4A694FFB}|CurrencyConverter.API\\CurrencyConverter.API.csproj|c:\\users\\amrsa\\source\\repos\\amrsaid92\\currencyconverter\\currencyconverter.api\\controllers\\currencyconvertercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D455048F-4F29-4CED-A664-48FE4A694FFB}|CurrencyConverter.API\\CurrencyConverter.API.csproj|solutionrelative:currencyconverter.api\\controllers\\currencyconvertercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,14 +23,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": ".gitignore",
-              "DocumentMoniker": "C:\\Users\\amrsa\\source\\repos\\amrsaid92\\CurrencyConverter\\.gitignore",
-              "RelativeDocumentMoniker": ".gitignore",
-              "ToolTip": "C:\\Users\\amrsa\\source\\repos\\amrsaid92\\CurrencyConverter\\.gitignore",
-              "RelativeToolTip": ".gitignore",
-              "ViewState": "AgIAAL0BAAAAAAAAAAAcwOMBAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-02-14T12:52:47.249Z",
+              "Title": "CurrencyConverterControllerIntegrationTest.cs",
+              "DocumentMoniker": "C:\\Users\\amrsa\\source\\repos\\amrsaid92\\CurrencyConverter\\CurrencyConverter.UnitTest\\CurrencyConverterControllerIntegrationTest.cs",
+              "RelativeDocumentMoniker": "CurrencyConverter.UnitTest\\CurrencyConverterControllerIntegrationTest.cs",
+              "ToolTip": "C:\\Users\\amrsa\\source\\repos\\amrsaid92\\CurrencyConverter\\CurrencyConverter.UnitTest\\CurrencyConverterControllerIntegrationTest.cs",
+              "RelativeToolTip": "CurrencyConverter.UnitTest\\CurrencyConverterControllerIntegrationTest.cs",
+              "ViewState": "AgIAAF4AAAAAAAAAAAAowHMAAACKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-15T06:49:00.208Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CurrencyConverterController.cs",
+              "DocumentMoniker": "C:\\Users\\amrsa\\source\\repos\\amrsaid92\\CurrencyConverter\\CurrencyConverter.API\\Controllers\\CurrencyConverterController.cs",
+              "RelativeDocumentMoniker": "CurrencyConverter.API\\Controllers\\CurrencyConverterController.cs",
+              "ToolTip": "C:\\Users\\amrsa\\source\\repos\\amrsaid92\\CurrencyConverter\\CurrencyConverter.API\\Controllers\\CurrencyConverterController.cs",
+              "RelativeToolTip": "CurrencyConverter.API\\Controllers\\CurrencyConverterController.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAAwC4AAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-15T05:48:51.778Z",
               "EditorCaption": ""
             }
           ]

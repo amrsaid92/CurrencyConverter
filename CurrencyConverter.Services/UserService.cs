@@ -76,7 +76,7 @@ namespace CurrencyConverter.Services
 
             var tokenOptions = new JwtSecurityToken(
                 notBefore: DateTime.Now,
-                expires: DateTime.Now.AddDays(1),
+                expires: DateTime.Now.AddDays(5),
                 issuer: ConfigurationKeys.JWT.Issuer,
                 audience: ConfigurationKeys.JWT.Audience,
                 claims: claims,

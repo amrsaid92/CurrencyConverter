@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35527.113 d17.12
+VisualStudioVersion = 17.12.35527.113
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{83C6C4CD-9300-4E63-9724-F65FD23EB6DA}"
 EndProject
@@ -32,6 +32,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CurrencyConverter.API", "CurrencyConverter.API\CurrencyConverter.API.csproj", "{D455048F-4F29-4CED-A664-48FE4A694FFB}"
 EndProject
 Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "CurrencyConverter.DBChanges", "CurrencyConverter.DBChanges\CurrencyConverter.DBChanges.sqlproj", "{84854FBC-4E6A-4A88-B663-214217A08E8A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CurrencyConverter.UnitTest", "CurrencyConverter.UnitTest\CurrencyConverter.UnitTest.csproj", "{F0947000-5DB7-4F59-934B-A8A10E85982F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -85,6 +87,10 @@ Global
 		{84854FBC-4E6A-4A88-B663-214217A08E8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{84854FBC-4E6A-4A88-B663-214217A08E8A}.Release|Any CPU.Build.0 = Release|Any CPU
 		{84854FBC-4E6A-4A88-B663-214217A08E8A}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{F0947000-5DB7-4F59-934B-A8A10E85982F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0947000-5DB7-4F59-934B-A8A10E85982F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0947000-5DB7-4F59-934B-A8A10E85982F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0947000-5DB7-4F59-934B-A8A10E85982F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -101,5 +107,6 @@ Global
 		{A27CCA9B-E41D-49F6-B21C-EE8AA90EB305} = {7A7910B4-68D2-4834-859C-847D129E7DFB}
 		{D455048F-4F29-4CED-A664-48FE4A694FFB} = {AB7C8DE8-66A0-4451-9667-8E53616E1914}
 		{84854FBC-4E6A-4A88-B663-214217A08E8A} = {FC67B7D4-8BAD-45A7-902D-1BDBE7BC7892}
+		{F0947000-5DB7-4F59-934B-A8A10E85982F} = {AB7C8DE8-66A0-4451-9667-8E53616E1914}
 	EndGlobalSection
 EndGlobal

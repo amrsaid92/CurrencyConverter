@@ -26,9 +26,9 @@ namespace CurrencyConverter.API.Controllers
         [MapToApiVersion("1.0")]
         [ProducesResponseType(typeof(ResponseResult<CurrencyLatestBaseResponseDto>), 200)]
         [Authorize(Roles = "User,Admin")]
-        public async Task<ResponseResult<CurrencyLatestBaseResponseDto>> LatestV1(string baseCurrnecy)
+        public async Task<ResponseResult<CurrencyLatestBaseResponseDto>> LatestV1(string baseCurrency)
         {
-            return await _currencyConvertService.Latest(baseCurrnecy);
+            return await _currencyConvertService.Latest(baseCurrency);
         }
 
         [HttpGet("Latest")]
@@ -36,9 +36,9 @@ namespace CurrencyConverter.API.Controllers
         [ProducesResponseType(typeof(ResponseResult<CurrencyLatestBaseResponseDto>), 200)]
         [ProducesResponseType(typeof(BadRequest), 400)]
         [Authorize(Roles = "User")]
-        public async Task<IActionResult> LatestV2(string baseCurrnecy)
+        public async Task<IActionResult> LatestV2(string baseCurrency)
         {
-            var result = await _currencyConvertService.Latest(baseCurrnecy);
+            var result = await _currencyConvertService.Latest(baseCurrency);
             if (result.Result.Code == Core.Data.ResultCodeStatus.BadRequest)
                 return BadRequest();
             return Ok(result);

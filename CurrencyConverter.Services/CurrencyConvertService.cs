@@ -53,14 +53,14 @@ namespace CurrencyConverter.Services
             }
         }
 
-        public async Task<ResponseResult<CurrencyLatestBaseResponseDto>> Latest(string baseCurrnecy)
+        public async Task<ResponseResult<CurrencyLatestBaseResponseDto>> Latest(string baseCurrency)
         {
             try
             {
-                if (IsNotValidCall(baseCurrnecy))
+                if (IsNotValidCall(baseCurrency))
                     return ResponseHandler<CurrencyLatestBaseResponseDto>.GetResult(Core.Data.ResultCodeStatus.BadRequest);
 
-                var result = await _frankfurterRefitClient.Latest(baseCurrnecy);
+                var result = await _frankfurterRefitClient.Latest(baseCurrency);
                 if (result != null)
                     return ResponseHandler<CurrencyLatestBaseResponseDto>.GetResult(Core.Data.ResultCodeStatus.Success, result);
                 else
