@@ -58,6 +58,22 @@ This project uses several design patterns to improve structure, flexibility, and
 
 ## Task Description and Assumptions
 
+## Task Setup
+
+To set up and run this project, ensure the following prerequisites are met:
+
+- **Development Environment**:  
+  - Visual Studio **2022**  
+  - .NET **8**  
+
+- **Database**:  
+  - A **database backup** is included in the project files for easy restoration.
+
+- **Logging**:  
+  - **Seq (v2024.3)** is installed and running on **port 5341** for structured logging.
+
+Ensure all dependencies are installed and configured before running the project.
+
 ### Calling the Frankfurt API
 - Used [Refit](https://github.com/reactiveui/refit), a REST client library for .NET, to simplify API calls by generating strongly typed HTTP clients.
 - To exclude specific currencies, they are listed in the application settings. This approach can be extended to store exclusions in the database for runtime configuration.
@@ -141,6 +157,11 @@ The project follows a **CI/CD (Continuous Integration & Continuous Deployment)**
   - **Staging**: For testing in a controlled environment.
   - **Production**: For live deployment.
 ![Image](https://github.com/user-attachments/assets/457bf5e0-63c1-4162-a586-d189ad577dbf)
+### Horizontal Scaling:
+- Configured **multiple servers per deployment group**, allowing the release pipeline to deploy changes across all instances.
+- This setup enables seamless **scaling** by adding more nodes when needed.
+![Image](https://github.com/user-attachments/assets/96916924-2807-4bb3-be41-481483cc9281)
 ### Approval Process:
 - **Pre-approval** is required for each stage to ensure controlled and secure deployments.
 ![Image](https://github.com/user-attachments/assets/839b5f01-fa7b-478d-a324-2bc049ef4825)
+
